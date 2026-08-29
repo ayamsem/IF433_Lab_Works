@@ -18,4 +18,8 @@ fun main() {
 
     }
     println("Grade kamu: $grade")
+    val studentId: String? = null
+    val idLength = studentId?.length ?: 0
+
+    println("Panajang ID: $idLength")
 }
