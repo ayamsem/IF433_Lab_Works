@@ -1,8 +1,11 @@
 package oop_132609_Raymond_Jacob_Apanov_Saragih.week01
 
+fun calculateStatus(score: Int) = if (score > 75) "Lulus" else "Tidak Lulus"
+
 fun main() {
     val name: String = "Raymond Jacob Apanov Saragih"
     val score: Int = 80
+    println("Status: ${calculateStatus(score)}")
 
 
     println("Nama: $name, Nilai: $score")
