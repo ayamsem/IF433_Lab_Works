@@ -26,5 +26,5 @@ fun main() {
     println("Bonus ${manager.name}: Rp ${manager.calculateBonus()}")
 
     developer.work()
-    println("Bonus ${developer.name}: Rp ${developer.calculateBonus()}")git
+    println("Bonus ${developer.name}: Rp ${developer.calculateBonus()}")
 }
