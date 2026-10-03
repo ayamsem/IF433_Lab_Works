@@ -17,6 +17,10 @@ fun main() {
     val pay1 = Gopay()
     val pay2 = CreditCard()
 
+    val lamp = SmartLamp("LAMP001", "Ruang Tamu")
+    val speaker = SmartSpeaker("SPK001", "Google Nest Dapur")
+    val cctv = SmartCCTV("CCTV001", "Ezviz Garasi")
+
     println("\n=== TESTING CHECKOUT ===")
     processCheckout(method = pay1, amount = 50000.0)
     processCheckout(method = pay2, amount = 150000.0)
