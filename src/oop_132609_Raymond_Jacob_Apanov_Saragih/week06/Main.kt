@@ -27,6 +27,7 @@ fun main() {
 
     val hub = SmartHomeHub()
 
+
     hub.addDevice(lamp)
     hub.addDevice(speaker)
     hub.addDevice(cctv)
