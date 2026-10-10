@@ -37,6 +37,10 @@ fun main() {
         is ApiResponse.Error -> "Munculkan alert: ${response.message}"
     }
 
+    println("\n=== TEST GAME MANAGER ===")
+    GameManager.startGame()
+    GameManager.startGame()
+
     println(uiMessage)
     println("App state: ${AppState.STARTING}")
 
