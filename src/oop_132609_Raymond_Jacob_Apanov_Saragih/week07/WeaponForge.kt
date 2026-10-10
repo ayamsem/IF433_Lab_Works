@@ -1,8 +1,5 @@
 package oop_132609_Raymond_Jacob_Apanov_Saragih.week07
 
-
-package oop_132609_Raymond_Jacob_Apanov_Saragih.week07
-
 class Weapon private constructor(
     val item: GameItem,
     val durability: Int
