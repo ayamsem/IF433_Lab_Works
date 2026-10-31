@@ -61,7 +61,6 @@ fun main() {
                 "Skipped: Unknown product type '${raw["type"]}'"
             )
 
-
         } catch (e: IllegalArgumentException) {
             println("Data Corrupt: ${e.message}")
         }
