@@ -37,4 +37,9 @@ fun main() {
             "WIN [${it.pair} - ${it.position}]: ${"%+.1f".format(java.util.Locale.US, it.roe)}% ROE (Lev: ${it.leverage}x)"
         }
 
+
+    val uniquePairs = tradeHistory
+        .map { it.pair }
+        .toSet()
+
 }
