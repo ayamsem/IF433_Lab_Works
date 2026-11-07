@@ -43,7 +43,6 @@ fun main() {
         .toSet()
 
     println("=== CRYPTO TRADING DASHBOARD ===")
-
     println("\n--- WINNING TRADES ---")
 
     topPerformersString.forEach {
