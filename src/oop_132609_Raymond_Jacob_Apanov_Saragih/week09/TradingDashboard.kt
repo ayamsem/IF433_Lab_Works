@@ -50,4 +50,13 @@ fun main() {
         println(it)
     }
 
+    println("\n--- LOSING TRADES ---")
+
+    worstPerformersString.forEach {
+        println(it)
+    }
+
+    println("\n--- UNIQUE TRADING PAIRS ---")
+    println(uniquePairs)
+
 }
