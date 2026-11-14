@@ -10,4 +10,9 @@ class WalletRepository<T> {
     fun getAll(): List<T> {
         return items
     }
+
+    fun findItem(predicate: (T) -> Boolean): T? {
+        return items.find(predicate)
+    }
 }
+
