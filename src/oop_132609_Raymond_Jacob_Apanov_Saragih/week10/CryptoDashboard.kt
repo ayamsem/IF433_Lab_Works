@@ -1,6 +1,7 @@
 package oop_132609_Raymond_Jacob_Apanov_Saragih.week10
 
 fun main() {
+
     val coinRepo = WalletRepository<Coin>()
     val response = ApiResponse("200 OK", coinRepo.getAll())
 
