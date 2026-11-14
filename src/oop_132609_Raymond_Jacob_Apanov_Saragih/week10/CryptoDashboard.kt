@@ -8,5 +8,10 @@ fun main() {
     coinRepo.add(Coin("Ethereum", 10.0))
     coinRepo.add(Coin("USDT", 500.0))
 
+    println("Status Respon: ${response.status}")
+    println("Daftar Koin:")
+    response.data.forEach { coin ->
+        println("- ${coin.name}: ${coin.balance}")
+    }
 }
 
