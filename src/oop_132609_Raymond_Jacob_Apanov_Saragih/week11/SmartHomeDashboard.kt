@@ -71,4 +71,14 @@ fun main() {
     }
 
     println("Total konsumsi daya: $totalPower Watt")
+
+    println("\n=== SMART HOME DEVICE DASHBOARD ===")
+
+    homeDevices.forEach {
+        println(it.diagnose())
+    }
+
+    println("\n======================================")
+    println("       SYSTEM CONFIGURATION DONE      ")
+    println("======================================")
 }
