@@ -59,4 +59,10 @@ fun main() {
     searchResult?.let {
         println(it.diagnose())
     }
+
+    println("\n=== SMART HOME SUMMARY ===")
+
+    with(homeDevices) {
+        println("Total perangkat terdaftar: ${this.size}")
+    }
 }
