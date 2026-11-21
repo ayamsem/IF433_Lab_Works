@@ -18,4 +18,15 @@ fun main() {
     }
 
     println("Lampu berhasil dikonfigurasi: ${smartLight.name}")
+
+    val securityCamera = SmartDevice(
+        "Ezviz Outdoor",
+        "Camera"
+    ).apply {
+        isOnline = true
+        powerLoad = 5
+    }.also {
+        println("(LOG) Kamera terhubung")
+        homeDevices.add(it)
+    }
 }
