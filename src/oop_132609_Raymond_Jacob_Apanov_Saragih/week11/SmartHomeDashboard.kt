@@ -49,4 +49,14 @@ fun main() {
             10
         )
     )
+
+    println("\n=== SEARCHING SECURITY CAMERA ===")
+
+    val searchResult = homeDevices.find {
+        it.category == "Camera"
+    }
+
+    searchResult?.let {
+        println(it.diagnose())
+    }
 }
