@@ -31,7 +31,18 @@ fun main() {
     } catch (e: Exception) {
         println("Error Umum: ${e.message}")
     } finally {
-    println("Siklus pengecekan dispenser pagi selesai.")
+        println("Siklus pengecekan dispenser pagi selesai.")
+    }
+
+    println("\n=== JADWAL MAKAN SORE ===")
+    runCatching {
+        dispenseKibble(
+            requestedGram = 30,
+            availableGram = 1000,
+            isJammed = false
+        )
+    }
 }
-}
+
+
 
