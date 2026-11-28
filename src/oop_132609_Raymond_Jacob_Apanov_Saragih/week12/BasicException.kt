@@ -23,6 +23,5 @@ fun main() {
     } catch (e: NumberFormatException) {
         -1
     }
-
     println("Hasil parsing: $result")
 }
